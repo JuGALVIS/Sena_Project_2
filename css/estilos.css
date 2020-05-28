@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    color: aliceblue;   
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+img{
+    width: 20px;
+}
+
+/*header----------------------------------r*/
+#header{
+    background-color: black;
+  
+
+
+}
+
+#barra-navegacion {
+    height: 100px;
+    position: relative;
+
+
+
+}
+#barra-navegacion ul {
+    position: absolute ;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+
+
+
+    
+}
+
+.barra-navegacion__item{
+    display: inline-block;
+
+    margin: 0;
+    
+}
+.barra-navegacion__item:hover{
+    color:black;
+    background-color: white;
+}
+
+#header__adicion{
+    background-color: gray;
+    height: 50px;
+}
+#logo-adn{
+    width: 50PX;
+    margin: 0;
+
+    float: left;
+}
+#logos-redes-sociales{
+    float: right;
+}
+
+
+
+
+#header-adicion__desplegable{
+    height: 100px;
+}
+
+#aside-fixed{
+    width: auto;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    margin: 0;
+
+}
+#elemento1-items{
+    display: none;
+    background-color: black;
+    
+
+}
+#aside-fixed_menu:hover > ul{
+    display: block;
+    color: chartreuse;
+}
+
+/*------------------------------------------------------------------*/
+.E {
+    position: sticky;
+    top: 0;
+}
+.Elemento1{
+    background-color: red;
+}
+.Elemento2{
+    background-color: pink;
+}
+.Elemento3{
+    background-color: purple;
+    
+}
+.Elemento4{
+    background: chocolate;
+}
+.Elemento5{
+    background-color: darkblue;
+}
+.Elemento6{
+    background-color: brown;
+}
+/*-------------------------PRUEBA-----------------------------------------*/
+.imagenes_noticias{
+    width: 300px;
+}
+/*-----------------------------------------*/
+#main-container{
+    width: 90%;
+    margin:auto;
+}
+/*------------------------------------------------------------------*/
+
+/*Footer---------------------------------*/
+#pie_pagina{
+    background-color: black;
+    height: 100px;
+
+
+
+}
+#texto_footer{
+    position: relative;
+    bottom: 0;
+}
